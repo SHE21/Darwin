@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#2DA870</color>
+    <color name="colorPrimaryDark">#20784f</color>
+    <color name="colorAccent">#3EC130</color>
+
+    <color name="colorGrayOne">#898989</color>
+    <color name="gray">#dedede</color>
+    <color name="colorGrayOneAlpha">#8bafafaf</color>
+    <color name="colorError">#ff4f4f</color>
+    <color name="colorWarnning">#ffa14f</color>
+    <color name="colorDica">#87abd1</color>
+
+    <!-- GEOMETRYCS COLORS-->
+    <color name="strokeBlack">#353535</color>
+    <color name="strokeBlue">#5972ff</color>
+    <color name="fillCircle">#615972ff</color>
+    <color name="strolRect">#511f1f</color>
+    <color name="fillRect">#c22a2a</color>
+    <color name="fillArea">#61ff2949</color>
+
+    <color name="colorCardProperties">#FFFFFF</color>
+    <color name="alphaCardProperties">#8effffff</color>
+</resources>

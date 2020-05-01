@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/displayWarn"
+    android:orientation="horizontal"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:background="@drawable/shape_warnning"
+    android:padding="5dp"
+    android:visibility="gone">
+<ImageView
+    android:layout_width="40dp"
+    android:layout_height="40dp"
+    android:src="@drawable/ic_warnning_black_24dp"
+    android:layout_gravity="right" />
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:padding="3dp">
+    <TextView
+        android:id="@+id/title"
+        android:text="Titulo da mensagem!"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_weight="1"
+        android:textSize="16sp"
+        android:textStyle="bold"
+        android:textColor="@color/colorWarnning"/>
+        <TextView
+            android:id="@+id/menssage"
+            android:text="Mensagem detalhada para o usuário."
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:textColor="@color/colorWarnning"/>
+    </LinearLayout>
+</LinearLayout>

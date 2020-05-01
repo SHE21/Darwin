@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_margin="15dp"
+        android:orientation="vertical">
+
+        <include layout="@layout/include_warnning"/>
+
+        <TextView
+            android:id="@+id/typeError"
+            android:text="Tipo geométrico incompatível, escolha um arquivo do tipo poligóno."
+            android:visibility="invisible"
+            style="@style/alertError"/>
+        <TextView
+            android:id="@+id/alertError"
+            android:text="Campos em branco!"
+            style="@style/alertError"
+            android:visibility="invisible"/>
+        <TextView
+            android:id="@+id/infoEscolha"
+            android:text="Escolha um aquivo KML para gerar um poligono da área do Levantamento."
+            style="@style/dicaMiniText"/>
+        <Spinner
+            android:id="@+id/listKml"
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            android:visibility="visible"
+            android:background="@drawable/shape_background_white_border"/>
+        <EditText
+            android:id="@+id/nameLev"
+            android:text=""
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@drawable/shape_background_white_border"
+            android:padding="10dp"
+            android:layout_marginTop="5dp"
+            android:singleLine="true"
+            android:hint="Nome do Levantamento"/>
+        <TextView
+            android:text="Máximo 30 caracteres"
+            style="@style/dicaMiniText"/>
+        <Button
+            android:id="@+id/btnCreateLev"
+            android:text="criar"
+            style="@style/darwinBnt"/>
+    </LinearLayout>
+</LinearLayout>

@@ -1,0 +1,155 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:orientation="vertical">
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:layout_marginTop="15dp">
+        <View style="@style/border"/>
+        <TextView
+            android:text="Adicione largura e altura em metros para criar uma área de amostragem."
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:paddingTop="15dp"
+            android:paddingStart="15dp"
+            android:paddingEnd="15dp"/>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:padding="15dp">
+       <TableLayout
+           android:layout_width="wrap_content"
+           android:layout_height="wrap_content">
+           <TableRow>
+
+               <ImageButton
+                   android:id="@+id/leftTop"
+                   style="@style/btnAguloOfRect"
+                   tools:ignore="ContentDescription" />
+
+               <ImageButton
+                   android:id="@+id/centerTop"
+                   style="@style/btnAguloOfRect"
+                   tools:ignore="ContentDescription" />
+
+               <ImageButton
+                   android:id="@+id/rightTop"
+                   style="@style/btnAguloOfRect"
+                   tools:ignore="ContentDescription" />
+           </TableRow>
+           <TableRow>
+
+               <ImageButton
+                   android:id="@+id/leftCenter"
+                   style="@style/btnAguloOfRect"
+                   tools:ignore="ContentDescription" />
+
+               <ImageButton
+                   android:id="@+id/centerCenter"
+                   style="@style/btnAguloOfRect"
+                   tools:ignore="ContentDescription" />
+
+               <ImageButton
+                   android:id="@+id/rightCenter"
+                   style="@style/btnAguloOfRect"
+                   tools:ignore="ContentDescription" />
+           </TableRow>
+           <TableRow>
+
+               <ImageButton
+                   android:id="@+id/leftBottom"
+                   style="@style/btnAguloOfRect"
+                   tools:ignore="ContentDescription" />
+
+               <ImageButton
+                   android:id="@+id/centerBottom"
+                   style="@style/btnAguloOfRect"
+                   tools:ignore="ContentDescription" />
+
+               <ImageButton
+                   android:id="@+id/rightBottom"
+                   style="@style/btnAguloOfRect"
+                   tools:ignore="ContentDescription" />
+           </TableRow>
+       </TableLayout>
+        <ImageView
+            android:id="@+id/previewAngle"
+            android:layout_width="match_parent"
+            android:layout_height="60dp"
+            tools:ignore="ContentDescription"
+            android:layout_gravity="center"
+            android:src="@drawable/view_center"/>
+    </LinearLayout>
+
+    <View style="@style/border"/>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:padding="15dp">
+    <TextView
+        android:text="Aplicar edição a amostra: "
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:padding="3dp" />
+    <RadioGroup
+        android:id="@+id/optionGroup"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+        <RadioButton
+            android:id="@+id/onlyThisAmostra"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:checked="true"
+            android:text="Selecionada" />
+
+        <RadioButton
+            android:id="@+id/onlyAllAmostra"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Todas" />
+    </RadioGroup>
+    </LinearLayout>
+
+    <View style="@style/border"/>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:padding="15dp">
+    <TextView
+        android:text="Adicione altura e largura da área retângular em metros"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:padding="3dp" />
+    <EditText
+        android:id="@+id/dimWidthRect"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="@string/dimWidthRect"
+        android:inputType="numberDecimal"
+        tools:ignore="LabelFor" />
+
+    <EditText
+        android:id="@+id/dimHeightRect"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="@string/dimHeightRect"
+        android:inputType="numberDecimal"
+        tools:ignore="LabelFor" />
+    <Button
+        android:id="@+id/btnCreate"
+        android:text="criar"
+        android:layout_marginTop="10dp"
+        style="@style/darwinBnt" />
+    </LinearLayout>
+    </LinearLayout>
+</ScrollView>

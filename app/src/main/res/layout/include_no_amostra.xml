@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+        android:visibility="gone"
+        android:id="@+id/notification"
+        style="@style/contNotification">
+        <TextView
+            android:text="Nenhuma amostra!"
+            style="@style/titleNotification"/>
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:orientation="horizontal">
+            <TextView
+                android:text="Use o botão"
+                android:layout_height="match_parent"
+                style="@style/enunNotification"/>
+            <ImageView
+                android:layout_width="30dp"
+                android:layout_height="30dp"
+                android:src="@drawable/btn_more"
+                android:padding="2dp"/>
+            <TextView
+                android:text="para criar uma Amostra"
+                style="@style/enunNotification"
+                android:layout_height="match_parent"/>
+        </LinearLayout>
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:orientation="horizontal">
+            <TextView
+                android:text="ou o botão"
+                android:layout_height="match_parent"
+                style="@style/enunNotification"/>
+            <ImageView
+                android:layout_width="32dp"
+                android:layout_height="32dp"
+                android:src="@drawable/btn_up"
+                android:padding="3dp"/>
+            <TextView
+                android:text="para criar Amostras"
+                style="@style/enunNotification"
+                android:layout_height="match_parent"/>
+        </LinearLayout>
+        <TextView
+            android:text="a partir de um aquivo KML."
+            style="@style/enunNotification"
+            android:layout_height="match_parent"/>
+    </LinearLayout>

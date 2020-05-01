@@ -1,0 +1,85 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.darwin.aigus.darwin.Activity.ActivityDetalheEspecie">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:layout_margin="15dp">
+        <LinearLayout
+            style="@style/itemDetalheEspecie">
+            <TextView
+                android:text="Levantamento: "
+                style="@style/labelDetalheEspecie"/>
+
+            <TextView
+                android:id="@+id/nameAmostra"
+                android:text="Favera"
+                style="@style/dataDetalheEspecie"/>
+        </LinearLayout>
+
+        <LinearLayout
+            style="@style/itemDetalheEspecie">
+            <TextView
+                android:text="Total de Amostras: "
+                style="@style/labelDetalheEspecie"/>
+
+            <TextView
+                android:id="@+id/totalAmostras"
+                android:text="120"
+                style="@style/dataDetalheEspecie"/>
+        </LinearLayout>
+
+        <LinearLayout
+            style="@style/itemDetalheEspecie">
+            <TextView
+                android:text="Total de Espécies: "
+                style="@style/labelDetalheEspecie"/>
+
+            <TextView
+                android:id="@+id/totalEspecies"
+                android:text="120"
+                style="@style/dataDetalheEspecie"/>
+        </LinearLayout>
+
+        <LinearLayout
+            style="@style/itemDetalheEspecie">
+            <TextView
+                android:text="ID na Base de Dados: "
+                style="@style/labelDetalheEspecie"/>
+
+            <TextView
+                android:id="@+id/idLev"
+                android:text="FEHB"
+                style="@style/dataDetalheEspecie"/>
+        </LinearLayout>
+
+        <LinearLayout
+            style="@style/itemDetalheEspecie">
+            <TextView
+                android:text="Criado em: "
+                style="@style/labelDetalheEspecie"/>
+
+            <TextView
+                android:id="@+id/dateCreateAmostra"
+                android:text="12-10-2017"
+                style="@style/dataDetalheEspecie"/>
+        </LinearLayout>
+
+        <LinearLayout
+            style="@style/itemDetalheEspecie">
+            <TextView
+                android:text="Criado Por: "
+                style="@style/labelDetalheEspecie"/>
+
+            <TextView
+                android:id="@+id/userAmostra"
+                android:text="Santiago"
+                style="@style/dataDetalheEspecie"/>
+        </LinearLayout>
+    </LinearLayout>
+</LinearLayout>

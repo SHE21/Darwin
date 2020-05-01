@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_margin="15dp"
+        android:orientation="vertical">
+        <include layout="@layout/include_dica" />
+        <TextView
+            android:id="@+id/alertError"
+            android:text="Campos em branco!"
+            style="@style/alertError"
+            android:visibility="invisible"/>
+        <TextView
+            android:id="@+id/nameAmostra"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@drawable/shape_background_alpha_border"
+            android:padding="10dp"
+            android:hint="Nome da Amostra"
+            android:singleLine="true"/>
+        <TextView
+            android:text="Ex.: -2.569938"
+            style="@style/dicaMiniText"
+            android:layout_marginTop="5dp"/>
+        <EditText
+            android:id="@+id/latAmostras"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@drawable/shape_background_white_border"
+            android:padding="10dp"
+            android:hint="Latitude"
+            android:inputType="numberDecimal|numberSigned"
+            android:singleLine="true"/>
+        <TextView
+            android:text="Ex.: -44.203467"
+            style="@style/dicaMiniText"
+            android:layout_marginTop="5dp"/>
+        <EditText
+            android:id="@+id/longAmostras"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@drawable/shape_background_white_border"
+            android:padding="10dp"
+            android:hint="Longitude"
+            android:inputType="numberDecimal|numberSigned"
+            android:singleLine="true"/>
+        <!-- numberSigned, numberDecimal -->
+        <Button
+            android:id="@+id/btnCreateAmost"
+            android:text="criar"
+            android:layout_marginTop="10dp"
+            style="@style/darwinBnt" />
+    </LinearLayout>
+</LinearLayout>

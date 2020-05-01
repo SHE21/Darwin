@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_margin="15dp"
+        android:orientation="vertical">
+        <TextView
+            android:id="@+id/alertError"
+            android:text="Campos em branco!"
+            style="@style/alertError"
+            android:visibility="invisible"/>
+        <EditText
+            android:id="@+id/nameLev"
+            android:text=""
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@drawable/shape_background_white_border"
+            android:padding="10dp"
+            android:hint="Nome do Levantamento"/>
+        <TextView
+            android:text="Máximo 50 carateres"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:padding="5dp"
+            android:textColor="@color/colorGrayOne"/>
+        <Button
+            android:id="@+id/btnCreateLev"
+            android:text="criar"
+            android:textColor="#fff"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@drawable/selector_btn_green"/>
+    </LinearLayout>
+
+</LinearLayout>

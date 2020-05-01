@@ -1,0 +1,54 @@
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:context="com.darwin.aigus.darwin.ActivityHome" >
+
+    <item android:id="@+id/action_search"
+        android:title="@string/action_search"
+        android:icon="@drawable/ic_search_black_24dp"
+        android:orderInCategory="100"
+        app:actionViewClass="android.support.v7.widget.SearchView"
+        app:showAsAction="always" />
+
+    <item android:id="@+id/action_graphi"
+        android:title="@string/action_graph"
+        android:icon="@drawable/ic_graph"
+        android:orderInCategory="100"
+        app:showAsAction="always" />
+
+    <item android:id="@+id/action_see_map"
+        android:title="@string/action_see_map"
+        android:icon="@drawable/ic_see_map"
+        android:orderInCategory="100"
+        app:showAsAction="always" />
+
+    <item android:id="@+id/action_down_especies"
+        android:title="@string/action_download"
+        android:icon="@drawable/ic_file_download_black_24dp"
+        android:orderInCategory="100"
+        app:showAsAction="always" />
+
+    <item android:id="@+id/action_delete"
+        android:title="@string/action_delete_allamostra"
+        android:icon="@drawable/ic_delete1_black_24dp"
+        android:orderInCategory="100"
+        app:showAsAction="" />
+
+    <item android:id="@+id/action_delete_datageo"
+        android:title="@string/action_delete_alldageo"
+        android:icon="@drawable/ic_delete1_black_24dp"
+        android:orderInCategory="100"
+        app:showAsAction="" />
+
+    <item android:id="@+id/action_upload"
+        android:title="@string/action_upload_amostras"
+        android:icon="@drawable/ic_file_upload_black_24dp"
+        android:orderInCategory="100"
+        app:showAsAction="always" />
+
+    <item android:id="@+id/action_info"
+        android:title="@string/action_dados_lev"
+        android:icon="@drawable/ic_info_outline_black_24dp"
+        android:orderInCategory="100"
+        app:showAsAction="" />
+</menu>

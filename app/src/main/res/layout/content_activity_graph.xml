@@ -1,0 +1,332 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    app:layout_behavior="@string/appbar_scrolling_view_behavior"
+    tools:context="com.darwin.aigus.darwin.Activity.ActivityGraph"
+    tools:showIn="@layout/activity_graph">
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <android.support.v7.widget.CardView
+                android:id="@+id/card"
+                style="@style/cardStyle">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical"
+                android:padding="10dp">
+                <TextView
+                    android:text="Dados do Levantamento"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:textSize="18sp"
+                    android:textStyle="bold"/>
+                <TextView
+                    android:id="@+id/areaPerimeter"
+                    android:text=""
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"/>
+                <TextView
+                    android:text="Total de Espécies por Amostra"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"/>
+            </LinearLayout>
+            </android.support.v7.widget.CardView>
+
+            <android.support.v7.widget.CardView
+                android:id="@+id/card_view"
+                style="@style/cardStyle">
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="vertical"
+                    android:padding="5dp">
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="vertical"
+                    android:padding="10dp">
+                <TextView
+                    android:text="Total de Espécies por Amostra"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:textSize="18sp"
+                    android:textStyle="bold"/>
+                    <TextView
+                        android:text="Total de Espécies por Amostra"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"/>
+                </LinearLayout>
+                <com.jjoe64.graphview.GraphView
+                    android:layout_width="match_parent"
+                    android:layout_height="300dp"
+                    android:id="@+id/graphBarras" />
+                </LinearLayout>
+            </android.support.v7.widget.CardView>
+
+            <android.support.v7.widget.CardView
+                android:id="@+id/card_viewgraf3"
+                style="@style/cardStyle">
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="vertical">
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="vertical"
+                    android:padding="13dp">
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:orientation="horizontal"
+                        android:baselineAligned="false">
+                        <LinearLayout
+                            android:layout_width="0dp"
+                            android:layout_height="wrap_content"
+                            android:orientation="vertical"
+                            android:layout_gravity="start"
+                            android:layout_weight="1">
+                            <TextView
+                                android:text="@string/subTitleGraph3"
+                                android:layout_width="match_parent"
+                                android:layout_height="wrap_content"
+                                android:textSize="18sp"
+                                android:textStyle="bold"/>
+                            <TextView
+                                android:text="@string/titleGraph2"
+                                android:layout_width="match_parent"
+                                android:layout_height="wrap_content"/>
+                        </LinearLayout>
+                        <FrameLayout
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_gravity="end|center">
+                            <ProgressBar
+                                android:id="@+id/progress2"
+                                android:visibility="invisible"
+                                android:layout_width="40dp"
+                                android:layout_height="40dp"/>
+                        </FrameLayout>
+                    </LinearLayout>
+
+                    <RadioGroup
+                            android:id="@+id/layersDiameter"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:orientation="horizontal">
+                        <RadioButton
+                            android:id="@+id/layerMediaDiameter"
+                            android:checked="true"
+                            android:text="@string/media"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content" />
+                        <RadioButton
+                            android:id="@+id/layerVarDiameter"
+                            android:text="@string/variance"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content" />
+                        <RadioButton
+                            android:id="@+id/layerDesvioDiameter"
+                            android:text="@string/desvioPadrao"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content" />
+                        <RadioButton
+                            android:id="@+id/layerAllDiameter"
+                            android:text="@string/all"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content" />
+                    </RadioGroup>
+                </LinearLayout>
+
+                    <View style="@style/border"/>
+
+                    <com.jjoe64.graphview.GraphView
+                        android:layout_width="match_parent"
+                        android:layout_height="300dp"
+                        android:layout_marginTop="10dp"
+                        android:id="@+id/graphDiameter" />
+
+                    <View style="@style/border"/>
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:orientation="vertical">
+                        <LinearLayout
+                            android:id="@+id/contDataTabular1"
+                            android:visibility="gone"
+                            android:orientation="vertical"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content">
+
+                            <LinearLayout
+                                android:layout_width="match_parent"
+                                android:layout_height="wrap_content"
+                                android:padding="10dp">
+
+                                <TextView
+                                    android:text="datatabiela"
+                                    android:textSize="23sp"
+                                    android:layout_width="wrap_content"
+                                    android:layout_height="wrap_content" />
+
+                            </LinearLayout>
+
+                            <View style="@style/border"/>
+                        </LinearLayout>
+
+                        <TextView
+                            android:id="@+id/seeDataTabular1"
+                            android:text="@string/seeDataTab"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:padding="13dp"
+                            android:textStyle="bold"
+                            android:textAlignment="center"
+                            android:clickable="true"
+                            android:focusable="true"
+                            android:textColor="@color/colorGrayOneAlpha"/>
+                    </LinearLayout>
+                </LinearLayout>
+            </android.support.v7.widget.CardView>
+
+            <!-- GRAFICO HEIGHT -->
+
+            <android.support.v7.widget.CardView
+                android:id="@+id/card_viewgraf2"
+                style="@style/cardStyle">
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="vertical">
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:orientation="vertical"
+                        android:padding="13dp">
+                        <LinearLayout
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:orientation="horizontal"
+                            android:baselineAligned="false">
+                            <LinearLayout
+                                android:layout_width="0dp"
+                                android:layout_height="wrap_content"
+                                android:orientation="vertical"
+                                android:layout_gravity="start"
+                                android:layout_weight="1">
+                                <TextView
+                                    android:text="@string/subTitleGraph2"
+                                    android:layout_width="match_parent"
+                                    android:layout_height="wrap_content"
+                                    android:textSize="18sp"
+                                    android:textStyle="bold"/>
+                                <TextView
+                                    android:text="@string/titleGraph2"
+                                    android:layout_width="match_parent"
+                                    android:layout_height="wrap_content"/>
+                            </LinearLayout>
+                            <FrameLayout
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:layout_gravity="end|center">
+                                <ProgressBar
+                                    android:id="@+id/progress1"
+                                    android:visibility="invisible"
+                                    android:layout_width="40dp"
+                                    android:layout_height="40dp"/>
+                            </FrameLayout>
+                        </LinearLayout>
+
+                        <RadioGroup
+                            android:id="@+id/layersHeight"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:orientation="horizontal">
+                            <RadioButton
+                                android:id="@+id/layerMediaHeight"
+                                android:checked="true"
+                                android:text="@string/media"
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content" />
+                            <RadioButton
+                                android:id="@+id/layerVarHeight"
+                                android:text="@string/variance"
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content" />
+                            <RadioButton
+                                android:id="@+id/layerDesvioHeight"
+                                android:text="@string/desvioPadrao"
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content" />
+                            <RadioButton
+                                android:id="@+id/layerAllHeight"
+                                android:text="@string/all"
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content" />
+                        </RadioGroup>
+                    </LinearLayout>
+
+                    <View style="@style/border"/>
+
+                    <com.jjoe64.graphview.GraphView
+                        android:layout_width="match_parent"
+                        android:layout_height="300dp"
+                        android:layout_marginTop="10dp"
+                        android:id="@+id/graph" />
+
+                    <View style="@style/border"/>
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:orientation="vertical">
+                        <LinearLayout
+                            android:id="@+id/contDataTabular"
+                            android:visibility="gone"
+                            android:orientation="vertical"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content">
+                            <LinearLayout
+                                android:layout_width="match_parent"
+                                android:layout_height="wrap_content"
+                                android:padding="10dp">
+                                <TextView
+                                    android:text="datatabiela"
+                                    android:textSize="23sp"
+                                    android:layout_width="wrap_content"
+                                    android:layout_height="wrap_content" />
+
+                            </LinearLayout>
+
+                            <View style="@style/border"/>
+                        </LinearLayout>
+
+                        <TextView
+                            android:id="@+id/seeDataTabular"
+                            android:text="@string/seeDataTab"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:padding="13dp"
+                            android:textStyle="bold"
+                            android:textAlignment="center"
+                            android:clickable="true"
+                            android:focusable="true"
+                            android:textColor="@color/colorGrayOneAlpha"/>
+                    </LinearLayout>
+                </LinearLayout>
+            </android.support.v7.widget.CardView>
+    </LinearLayout>
+    </ScrollView>
+</android.support.constraint.ConstraintLayout>

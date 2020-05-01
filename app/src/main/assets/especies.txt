@@ -1,0 +1,317 @@
+Acácia Australiana-Acacia mangium
+Açoita Cavalo Graudo-Luhea grandiflora
+Açoita Cavalo Miudo-Luehea divaricata
+Aderno-Astronium concinnum
+Albizia-Albizia polycephala
+Aldrago-Pterocarpus violaceous
+Alecrim-Holocalyx balansae
+Amarelinho-Terminalia brasiliensis
+Amendoim Bravo-Pterogyne nitens
+Amendoim Falso-Acosmium subelegans
+Angico Branco-Anadenanthera colubrina
+Angico Branco-Parapiptadenia rigida
+Angico Branco Do  Morro-Andenanthera peregrina
+Angico Do Cerrado-Anadenanthera falcata
+Angico Rajado-Leucochloron incuriale
+Angico Vermelho-Anadenanthera macrocarpa
+Araça Roxo-Psidium myrtoides
+Araçá Vermelho -Psidium cattleianum
+Araçá Amarelo -Psidium cattleianum
+Araribá- Centrolobium tomentosum
+Araticum Cagão-Annona cacans
+Araticum Liso/Bóia/Marolo-Annona coriacea
+Araticum-Do-Mato-Rollini sylvatica
+Araticum-Mirim-Rollinia emarginata
+Aroeira Pimenteira- Schinus terebinthifolia
+Aroeira Preta- Myracrodruon urundeuva
+Aroeira Salsa-Schinus molle
+Árvore da Chuva-Melanoxylon brauna
+Árvore da Vela-Parmentiera cereifera
+Babosa Branca-Cordia superba
+Boleira-Joannesia princeps
+Boleiro-Alchornea triplinervia
+Bracatinga-Mimosa scrabella
+Branquilho-Sebastiania commersoniana
+Bugreiro-Lithraea molleoides
+Cabeludinha-Myrciaria glazioviana
+Cabreúva-Myroxylon peruiferum
+Café De Bugre-Cordia ecalyculata
+Canafístula-Peltophorum dubium
+Canafrista-Cassia Ferruginea
+Canela Amarela-Nectranda lanceolata
+Canela Guaicá-Ocotea puberula
+Canelinha-Nectandra megapotamica
+Canjarana-Cabralea canjerana
+Capitão Do Campo -Terminalia argentea
+Capixingui-Croton floribundus
+Caporapanea-Rapanea gardneriana
+Capororoca-Rapanea ferruginea
+Capulim-Muntingia calabura
+Carne de Vaca-Clethra scabra
+Caroba-Jacaranda macrantha
+Carobão-Jacaranda micrantha
+Carobinha-Jacaranda puberula
+Casca D’anta-Rauwolfia sellowii
+Castanha do Maranhão- Bombacopsis glabra
+Catiguá-Trichilia silvatica
+Catiguá Vermelho-Trichilia clausseni
+Caviúna-Machaerium scleroxylon
+Cebolão-Phytolacca dioica
+Cedro Rosa-Cedrela fissilis
+Cereja do Mato-Eugenia involucrata
+Chibatã-Astronium fraxifolium
+Chimbuva-Enterholobium timbouva
+Chuva de Ouro-Lophantera lactescens
+Copaiba-Copaifera langsdorffii
+Coração De Negro-Poecilanthe parviflora
+Cortiça Lisa-Rollinia xalicifolia
+Corticeira-Da-Serra-Erythrina falcata
+Cuvantã-Cupania vernalis
+Dedaleiro-Lafoensia pacari
+Duranta-Durante Vestiba
+Embaúva-Cecropia pachystachya
+Embaúva Branca-Cecropia Pachystachya
+Embaúva Vermelha-Cecropia Hololeuca
+Embauva Prateada-Cecropia hololeuca
+Embira de Sapo-Lonchocarpus cultratus
+Emburana-Ambura cearensis
+Espinheira Santa-Pachystroma Longifolium
+Espora de Galo-Acnistus arborescens
+Falso Barbatimão -Cassia leptophylla
+Fava de Bolota-Parkia pendula
+Fedegoso-Senna occidentalis
+Feijão Cru-Lonchocarpus muehlbergianus
+Figueira Branca-Ficus guaranitica
+Folha de Serra-Sorocea Bonplandii
+Fruta de Jacu -Allophylus Edulis
+Fruta da Condessa-Rollinia mucosa
+Fruto de Pombo-Rhamnus Sphaerosperma
+Fumo Bravo-Solanum granuloso-leprosum
+Gabiroba-Campomanesia xanthocarpa
+Goiaba Branca-Psidium guajava
+Goiaba Vermelha-Psidium guajava
+Goiaba-Serrana-Acca sellowiana
+Graviola-Annona Crassiflora
+Gronde Gallo
+Grumixama Amarela-Eugenia brasiliensis
+Guaçatunga-Casearia rupestris
+Guaçatunga-Casearia Sylvestris
+Guajuvira-Cordia Americana
+Guapuruvu-Schizolobium parahyba
+Guaramirim-Plinia rivularis
+Guarantu-Casearia lasiophylla
+Guarita-Astronium Graveolens
+Guatambu-Aspdosperma macrocarpon
+Gurucaia-Parapitadenia rigida
+Gurujuba-Albizia niopoides
+Imbirinha-Lonchocarpus Campestris
+Imbiruçu-Pseudobombax Glandiflorum
+Imbuia-Ocotea Porosa
+Ingá de Metro-Inga Edulis
+Ingá Feijão-Inga marginata
+Ingá do Brejo-Inga vera
+Ipê Amarelo-Handroanthus chrysotricha
+Ipê Amarelo da Serra-Handroanthus Albus
+Ipê Amarelo Da Serra-Handroanthus albus
+Ipê Amarelo do Brejo Handroanthus umbellata
+Ipê Branco-Tabebuia roseoalba
+Ipê Roxo Sete Folhas-Handroanthus Heptaphyllus
+Ipê Roxo do Grande-Handroanthus impetiginosa
+Ipê Verde-Cybistax Antisyphilitica
+Ipê Rosa-Handroanthus heptaphyllus
+Ipê Roxo da Mata-Handroanthus avellanedae
+Ipê Tabaco-Zeyheia tuberculosa
+Ivai-Hexachlamys Edulis
+Jaboticaba Grande-Myrciaria cauliflora
+Jaboticaba Sabará-Plinia trunciflora
+Jacaranda de Minas-Jacaranda cuspidifolia
+Jacaranda do Campo-Platypodium elegans
+Jacarandá Mimoso-Mimosifolia
+Jambo-Syzygium jambos
+Jangadeira-Apeiba tibourbou
+Jaracatiá-Jacaratia spinosa
+Jatobá-Hymenaea courbaril
+Jatobá Mirim-Guibourtia hymenifolia
+Jenipapo-Genipa americana
+Jequitibá-Cariniana estrellensis
+Jerivá-Syagrus romanzoffiana
+Joá-Solanum Pseudo Quina
+Jobo-Tapirira obtusa
+Juazeiro-Ziziphus Joazeiro
+Juquiri-Mimosa Regnelli
+Jurubeba-Solanum paniculatum
+Laranja de Macaco-Posoqueira Acutifolia
+Leiteira -Tabernaemontana hystrix
+Leiteira de Espinho-Pachystroma longifolium
+Leiteiro Branco-Micrandra elata
+Lixeira-Aloysia virgata
+Louro Pardo-Cordia trichotoma
+Louveira-Cyclolobium vecchii
+Marmelo do Campo-Plenckia populnea
+Magnolia Branca-Magnolia ovata
+Mamica de Porca-Zanthoxylum rhoifolium
+Mamiqueira Fedorenta-Zanthoxylum caribaeum
+Mamona do Mato-Mabea fistulifera
+Maria Preta-Vitex polygama
+Maricá-Mimosa bimucronata
+Marinheiro-Guarea guidonia
+Monjoleiro-Senegalia polyphylla
+Morototo-Schafflera morototoni
+Mulungu-Erythrina speciosa
+Murici Açu-Byrsonima stipulacea
+Murici Mirim-Byrsonima sericea
+Murta Folha Larga-Eugenia florida
+Murta Folha Miuda-Myrciaria rostrata
+Mutambo-Guazuma ulmifolia
+Oiti-Licania tomentosa
+Oiti Pardo-Hirtella hebeclada
+Oleo Pardo-Myrocarpus frondosus
+Olho de Boi-Dicloea violacea
+Olho de Cabra-Ormosia arborea
+Olho de Pavão-Adenanthera pavonina
+Paineira Rosa-Chorisia speciosa
+Palmito Juçara-Euterpe edulis
+Pata de Vaca-Bauhinia forficata
+Pau Cigarra-Senna multijuga
+Pau D’alho-Gallesia integrifolia
+Pau Ferro-Caesalpínia ferrea
+Pau Formiga-Triplaris americana
+Pau Jangada-Heliocarpus popayanensis
+Pau Marfim-Balfourodendron riedelianum
+Pau Polvora-Trema micrantha
+Pau Tenente-Quassia amara
+Pau Brasil- Caesalpinia echinata
+Pau Brasil Ornamental-Caesalpinia tinctoria
+Pau de Leite-Sapium glandulosum
+Pau Fava-Senna macranthera
+Pau Jacaré-Piptadenia gonoacantha
+Pau Pereira-Aspidosperma discolor
+Pau Pombo-Tapirira guianensis
+Peroba Branca-Chrysophyllum gonocarpum
+Peroba Rosa-Aspidosperma polineuron
+Peroba Café- Aspdosperma ramiflorum
+Pessegueiro Bravo-Prunus sellowii
+Pimenta de Macaco-Xylopia aromatica
+Pindaíva-Duguetia  lanceolata
+Pinhão Manso-Jatropha curcas
+Pinheirinho-Podocarpus lambertii
+Pinheiro do Parana-Araucaria angustifolia
+Pitanga-Eugenia uniflora
+Pixirica-Leandra australis
+Quaresmeira-Tibouchina granulosa
+Saboeiro-Sapindus saponaria
+Saguaraji-Colubrina glandulosa
+Saguaraji Amarelo-Rhamnidium elaeocarpum
+Salta Martim-Sapindus saponaria
+Sangra D’água-Croton urucurana
+Sansão do Campo-Mimosa caesalpiniifolia
+Sapateiro-Pera glabrata
+Sapucainha-Carpotroche brasiliensis
+Sapuvinha-Machaerium stipitatum
+Sibipiruna- pluviosa
+Sucupira Branca-Pterodon emarginatus
+Suinã-Erythrina velutina
+Taiúva-Maclura tinctoria
+Tamanqueiro-Aegiphila sellowina
+Tapiá-Alchornea sidifolia
+Tarumã-Vitex montevidensis
+Timburi-Enterolobium contortisiliquum
+Tomate de Árvore-Cyphomandra betacea
+Tucaneiro-Citharexlum myrianthum
+Urucum-Bixa orellana
+Uvaia-Eugenia pyriformis
+Vacum-Allophylus edulis
+Açoita Cavalo Miúdo-Luehea divaricata
+Araça Amarelo-Psidium cattleianum
+Babosa Branca-Cordia superba
+Café de Bugre-Cordia ecalyculata
+Canafistula-Peltophorum dubium
+Canela Amarela-Ocotea corymbosa
+Canela Guaica-Ocotea puberula
+Capixingui-Croton floribundus
+Carne de Vaca-Cletlra scabra
+Carobão-Jacaranda micrantha
+Casca D’Anta-Rauvolfia sellowii
+Castanha do Maranhão-Bombacopsis glabra
+Cedro Rosa-Cedrela fissilis
+Cereja do Mato-Eugenia involucrata
+Chuva de Ouro-Lophantera lactescens
+Embira de Sapo-Lonchocarpus cultratus
+Fedegoso-Senna occidentalis
+Fruta da Condessa-Rollinia mucosa
+Goiaba-Psidium guajava
+Grumixama-Eugenia brasiliensis
+Guaçatunga-Casearia sylvestris
+Guajuvira-Cordia americana
+Guaramirim-Plinia rivularis
+Guarita-Astronium graveolens
+Ingá de Metro-Inga edulis
+Ingá Feijão-Inga marginata
+Jaboticaba sabará-Plinia trunciflora
+Jerivá-Syagrus romanzoffiana
+Juquiri-Mimosa regnellii
+Laranja de Macaco-Posoqueira acutifolia
+Mamica de Porca-Zanthoxylum rhoifolium
+Maricá-Mimosa bimucronata
+Monjoleiro-Senegalia polyphylla
+Morototo-Schefflera morototoni
+Palmito Jussara-Euterpe edulis
+Pata de Vaca-Bauhinia forficata
+Pau Brasil Ornamental-Caesalpinia tinctoria
+Pau Cigarra-Senna multijuga
+Pau d’alho-Gallesia integrifolia
+Pau Ferro-Caesalpinia ferrea
+Pau Jacaré-Piptadenia gonoacantha
+Pessegueiro Bravo-Prunus sellowii
+Saboeiro-Sapindus saponaria
+Saguaragi-Colubrina glandulosa
+Tamanqueiro-Aegiphila sellowina
+Tucaneiro-Citharexylum myrianthum
+Urucum-Bixa orellana
+Açoita Cavalo Miúdo-Luehea divaricata
+Araça Amarelo-Psidium cattleianum
+Babosa Branca-Cordia superba
+Café de Bugre-Cordia ecalyculata
+Canafistula-Peltophorum dubium
+Canela Amarela-Ocotea corymbosa
+Canela Guaica-Ocotea puberula
+Capixingui-Croton floribundus
+Carne de Vaca-Cletlra scabra
+Carobão-Jacaranda micrantha
+Casca D’Anta-Rauvolfia sellowii
+Castanha do Maranhão-Bombacopsis glabra
+Cedro Rosa-Cedrela fissilis
+Cereja do Mato-Eugenia involucrata
+Chuva de Ouro-Lophantera lactescens
+Embira de Sapo-Lonchocarpus cultratus
+Fedegoso-Senna occidentalis
+Fruta da Condessa-Rollinia mucosa
+Goiaba-Psidium guajava
+Grumixama-Eugenia brasiliensis
+Guaçatunga-Casearia sylvestris
+Guajuvira-Cordia americana
+Guaramirim-Plinia rivularis
+Guarita-Astronium graveolens
+Ingá de Metro-Inga edulis
+Ingá Feijão-Inga marginata
+Jaboticaba sabará-Plinia trunciflora
+Jerivá-Syagrus romanzoffiana
+Juquiri-Mimosa regnellii
+Laranja de Macaco-Posoqueira acutifolia
+Mamica de Porca-Zanthoxylum rhoifolium
+Maricá-Mimosa bimucronata
+Monjoleiro-Senegalia polyphylla
+Morototo-Schefflera morototoni
+Palmito Jussara-Euterpe edulis
+Pata de Vaca-Bauhinia forficata
+Pau Brasil Ornamental-Caesalpinia tinctoria
+Pau Cigarra-Senna multijuga
+Pau d’alho-Gallesia integrifolia
+Pau Ferro-Caesalpinia ferrea
+Pau Jacaré-Piptadenia gonoacantha
+Pessegueiro Bravo-Prunus sellowii
+Saboeiro-Sapindus saponaria
+Saguaragi-Colubrina glandulosa
+Tamanqueiro-Aegiphila sellowina
+Tucaneiro-Citharexylum myrianthum
+Urucum-Bixa orellana

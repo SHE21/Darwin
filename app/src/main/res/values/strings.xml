@@ -1,0 +1,247 @@
+<resources>
+    <string name="user">Usuário</string>
+    <string name="NomeUser">Nome de Usuário</string>
+    <string name="levantamento">Levantamento</string>
+    <string name="datalevantamento">Dados do Levantamento</string>
+    <string name="levantamentos">Levantamentos</string>
+    <string name="especie">Espécie</string>
+    <string name="especies">Espécies</string>
+    <string name="amostra">Amostra</string>
+    <string name="dataamostra">Dados da Amostra</string>
+    <string name="amostras">Amostras</string>
+    <string name="editAccount">Editar sua Conta</string>
+    <string name="registrese">Registre-se</string>
+    <string name="revogarAcesso">Revogar Acesso</string>
+
+    <string name="assuntoEmailToUser">Credenciais de Acesso DarwinApp</string>
+    <string name="noReplay">Email automático, não é necessário responde-lo.<br /> Por questões de segurança sugerimos fortemente que este email seja excluído da sua caixa de entrada e da lixeira.</string>
+
+    <string name="createAAccount">Crie uma Conta Darwin</string>
+    <string name="termoPrivacity">Termo de Provacidade</string>
+    <string name="termoContrato">Contrato de Licença</string>
+    <string name="e">e</string>
+    <string name="createEditAccount">Edite os dados da sua Conta</string>
+    <string name="paraAcessar">Para que você aproveite as funcionalidades do Darwin App, você precisar registrar uma conta.</string>
+    <string name="liConcordo">Li e Concordo com o Termo de Privacidade e o Contrato de Lisença.</string>
+    <string name="enunciEditUser">Você pode editar suas informações, mas antes tenha certeza que precisa de fato modificá-las. Ao mudar de email Darwin usará este novo email, como por exemplo, para validar sua conta, mudar de senha e outras operções necessárias.</string>
+
+    <string name="firstName">Nome</string>
+    <string name="lastName">Sobrenome</string>
+    <string name="email">Email</string>
+    <string name="country">País</string>
+    <string name="stated">Estado</string>
+    <string name="city">Cidade</string>
+    <string name="pass">Senha</string>
+    <string name="prof">Profissão</string>
+    <string name="bithDay">Aniversário</string>
+    <string name="inst">Empresa/Instituição</string>
+    <string name="passAgain">Senha Novamente</string>
+    <string name="generusF">Feminino</string>
+    <string name="generusM">Masculino</string>
+
+    <string name="dadosPessoa">Dados pessoais</string>
+    <string name="profissional">Dados profissionais</string>
+    <string name="whereare">De onde você é?</string>
+    <string name="insertpass">Insira uma senha. Mínimo 8 caracteres.</string>
+    <string name="insertpasse">Insira sua senha para concluir a edição.</string>
+
+    <string name="ultilListaKml">Lista de Aquivos Kml</string>
+    <string name="selectFileKmlAmostras">Selecione na lista um arquivo KML para gerar as Amostras.</string>
+    <string name="coords">Coordenadas</string>
+    <string name="totalEspecie">Total de Espécies</string>
+
+    <string name="app_name">Darwin</string>
+    <string name="settings">Configurações da Conta</string>
+    <string name="action_user">Dados do Usuário</string>
+    <string name="action_search">Busca</string>
+    <string name="action_add_rect">Área Retângular</string>
+    <string name="action_add_circle">Área Circular</string>
+    <string name="action_undo">Desfazer Edição</string>
+    <string name="action_add_amostra">Adicionar Amostra</string>
+    <string name="action_save">Salvar Edição</string>
+    <string name="action_delete_allamostra">Excluir Amostras</string>
+    <string name="action_delete_alldageo">Excluir Dados Geográficos</string>
+    <string name="action_upload_amostras">Dados do Usuário</string>
+    <string name="action_see_map">Ver Mapa</string>
+    <string name="action_graph">Gráficos</string>
+    <string name="action_info">Informações</string>
+    <string name="action_data">Dados Estatisticos</string>
+    <string name="action_dados_lev">Dados do Levantamento</string>
+    <string name="action_upload">Upload de KML</string>
+    <string name="action_download">Baixar Dados Espécies</string>
+    <string name="title_activity_user">@string/user</string>
+    <string name="title_activity_amostras">@string/amostra</string>
+    <string name="title_activity_especie">@string/especies</string>
+    <string name="info_especie">Espécie: Palmeira\nAltura: 2.6 m\nDiâmetro: 0.13 cm </string>
+    <string name="noConnection">Sem conexão com a Internet!</string>
+    <string name="mnoConnection">Continue fazendo seu cadastro, quando houver uma conexão os dados serão enviados.</string>
+
+    <string name="excluirLeva">Excluir Levantamento</string>
+    <string name="excluirAmostra">Excluir Amostra</string>
+    <string name="excluirAmostras">Excluir Amostras</string>
+    <string name="excluirMsnAmostras">A Amostra será excluída com as Espécies.</string>
+    <string name="excluirMsnAllAmostras">Deseja excluir todas as Amostras e Espécies deste Levantamento?</string>
+    <string name="excluirEspecie">Excluir Espécie</string>
+    <string name="excluirEspecies">Excluir Espécies</string>
+
+    <string name="editarAmostra">Editar Amostra</string>
+    <string name="editarLevantamento">Editar Levantamento</string>
+    <string name="editarEspecie">Editar Espécie</string>
+
+    <string name="criarAmostra">Criar Amostra</string>
+    <string name="amostraCriadas">Amostras Criadas!</string>
+    <string name="criandoAmostra">Criando Amostra …</string>
+    <string name="criarLevantamento">Criar Levantamento</string>
+    <string name="adEspecie">Adicionar Espécie</string>
+    <string name="createAreaRect">Criar área retângular</string>
+    <string name="excluirDataGeo">Excluir Dados Geográficos</string>
+    <string name="excluirMsnDataGeo">Deseja excluir os Dados Geográficos deste Levantamento?</string>
+    <string name="amostraSemEspecies">Amostra sem Espécies</string>
+
+    <!-- ERRORS -->
+    <string name="errorCampoBranco">Campos em Branco!</string>
+    <string name="errorNoPass">Para concluir as alterações é necessário sua senha!</string>
+    <string name="errorpass">As senhas não são iguais!</string>
+    <string name="emailNotFound">Este Email não corresponde ao cadastrado!</string>
+    <string name="maior8pass">A senha precisar ter mais de 8 caracteres!</string>
+    <string name="errorCampoBranco2">O campo não pode ficar vazio!</string>
+    <string name="errorAlgoErrado">Algo deu Errado!</string>
+    <string name="erroUpdate">Não foi possivél salvar as edições. Verifique se há espaço no seu dispositivo e tente depois!</string>
+    <string name="errorPass">Senha ou usuário incorretos!</string>
+    <string name="errorEmail">Email inválido. Use um email válido!</string>
+    <string name="errorPassAndUser">Senha ou Usuário incorretos!</string>
+    <string name="errorReadFile">Erro ao ler o arquivo!</string>
+    <string name="dirNotFound">Diretório não encontrado!</string>
+    <string name="noAmostras">Nenhuma Amostra para visualizar.</string>
+    <string name="typeErrorPoly">Tipo geométrico incompatível, use um arquivo do tipo polígono!</string>
+    <string name="typeErrorPoint">Tipo geométrico incompatível, use um arquivo do tipo ponto!</string>
+    <string name="noEditTitle">Impossível Editar Dados Geográficos</string>
+    <string name="noEditGeoData">Não é possível editar os dados geográficos deste Levantamento. Para substituir é necessário apagá-los primeiro!</string>
+    <string name="dataBaseErro">ERRO: verifique se há espaço na memória do seu dispositivo.</string>
+    <string name="noAmostraExcluir">Sem Amostras e Espécies para excluir!</string>
+    <string name="noPermission">Darwin não tem permissão para ler e escrever aquivos no seu dispositivo. Configure em: Configurações/Aplicativos/Darwin/Permissões</string>
+    <string name="error">Error!</string>
+    <string name="erroToSandEmail">Ocorreu um erro. Verifique se sua conta de email está habilidade a receber emails, ou se Darwin tem permisão para acessar a internet do seu dispositivo.</string>
+    <string name="coordIncorrectFormat">Coordendas inválidas</string>
+    <string name="onlyNumberFormat">Existem caracteres não numéricos no campo!</string>
+    <string name="exceptionNameNumber">O nome excede o número de caracteres!</string>
+    <!-- ERRORS -->
+
+    <!-- PROCESSOS-->
+    <string name="excluindoLevantamento">Excluindo Levantamento &amp;</string>
+    <string name="excluindoAmostras">Excluindo Amostras &amp;</string>
+    <string name="excluindoAmostra">Excluindo Amostra &amp;</string>
+    <string name="excluindoEspecie">Excluindo Espécie &amp;</string>
+    <string name="excluidoEspecie">Espécie excluída!</string>
+    <!-- PROCESSOS-->
+
+    <!-- SUCESSO-->
+    <string name="amostraExcluida">Amostra excluída!</string>
+    <string name="amostrasExcluida">Amostras excluídas!</string>
+    <string name="levExcluido">Levantamento excluído!</string>
+    <string name="criadoAmostra">Amostra criada!</string>
+    <string name="criadoLevant">Levantamento criado!</string>
+    <string name="addEspecie">Espécie Adicionada!</string>
+    <string name="sucesso">Sucesso!</string>
+    <string name="mSucesseSandEmail">As credenciais de acesso foram enviadas para o email. Verifique sua caixa de entrada ou seu caixa de span e tente fazer login novamente.</string>
+    <!-- SUCESSO-->
+
+    <!-- OPÇAO-->
+    <string name="cancel">CANCELAR</string>
+    <string name="save">SALVAR</string>
+    <string name="criar">CRIAR</string>
+    <string name="adicionar">ADICIONAR</string>
+    <string name="excluir">EXCLUIR</string>
+    <string name="fechar">FECHAR</string>
+    <string name="licenciar">LICENCIAR</string>
+    <string name="noThanks">NÃO, OBRIGADO</string>
+    <string name="createAccount">CRIAR CONTA</string>
+    <string name="downFile">BAIXAR ARQUIVO</string>
+    <string name="sand">ENVIAR</string>
+    <string name="ativar">ATIVAR</string>
+    <string name="ok">OK</string>
+    <!-- OPÇAO-->
+
+    <!-- DIALOS -->
+    <string name="wait">Aguarde</string>
+    <string name="dialogTitleDelEspecies">Excluir Espécies</string>
+    <string name="dialogTitleDelLev">Excluir Levantamento</string>
+    <string name="dialogTitleAmostra">Excluir Amostra</string>
+    <string name="dialogTitleAllAmostra">Excluir Todas as Amostras</string>
+
+    <string name="noPermissionSd">Sem permissão para gravar e ler arquivos!</string>
+    <string name="mnoPermissionSd">Darwin não tem permissão para gravar e ler arquivos neste dispositivo. Sem essa permissão Darwin não funcionará corretamente. Ative as permissões em : Configuração / Aplicativos / Darwin / Permissões. </string>
+
+    <string name="oneDicaTitle">Dica!</string>
+    <string name="oneDicaMessage">Por padrão o nome da Amostra é gerado automaticamente e você não pode editá-las. O sistema de coordenadas usado é WGS84.</string>
+
+    <string name="noFileKml">Sem arquivos .KML</string>
+    <string name="mnoFileKml">Não foram encontrados arquivos KML. Verifique o diretório "Darwin / Kml /" se há arquivos com a extensão .KML, caso contrário conecte a um computador para salva-los no dirtório.</string>
+
+    <string name="noTools">Funcionalidade indisponível</string>
+    <string name="noMsnTools">Registre seu Darwin e desbloquei esta funcionalidade.</string>
+
+    <string name="titleDownAmostra">Baixar arquivo de Amostra</string>
+
+    <!--TOASTS -->
+    <string name="modeAddAmostraAtive">Adicionar Amostras ativado!</string>
+    <string name="modeAddAmostraDesative">Adicionar Amostras Desativado!</string>
+    <string name="familyNoEspecies">Grupo de família sem Espécies!</string>
+    <string name="saved">Salvo!</string>
+    <string name="ToastCreateAccount">Conta criada!</string>
+
+    <string name="seraExcuida">será excluída</string>
+    <string name="oArquivo">O arquivo</string>
+    <string name="onDirAmostra">será criado na pasta Darwin/Amostras do seu dispositivo</string>
+    <string name="ativado">ativado</string>
+    <string name="desativado">desativado</string>
+    <string name="notify">Notificações</string>
+    <string name="permancecerlogado">Permanecer logado</string>
+
+    <!-- ESTATISTICA-->
+    <string name="titleGraph2">Média, Variância e Desvio padrão</string>
+    <string name="subTitleGraph2">Altura(m) das Espécies por Amostragem</string>
+    <string name="subTitleGraph3">Diâmetro(cm) das Espécies por Amostragem</string>
+    <string name="media">Média</string>
+    <string name="variance">Variância</string>
+    <string name="desvioPadrao">Desvio Padrão</string>
+    <string name="seeDataTab">Ver Dados Tabulados</string>
+    <string name="all">Todos</string>
+
+    <!-- PROFISSÕES-->
+    <string name="selectProfission">Selecione uma profissão</string>
+    <string name="biologo">Biológo</string>
+    <string name="botanico">Botânico</string>
+    <string name="ecologo">Ecólogo</string>
+    <string name="engAmbiental">Engenheiro Ambiental</string>
+    <string name="engAgricola">Engenheiro Agrícola</string>
+    <string name="engAgonomo">Engenheiro Agrônomo</string>
+    <string name="engFlorestal">Engenheiro Florestal</string>
+    <string name="engCivil">Engenheiro Civil</string>
+    <string name="estudannte">Estudante</string>
+    <string name="geografo">Geógrafo</string>
+    <string name="gestorAmbiental">Gestor Ambiental</string>
+    <string name="oceanografo">Oceanógrafo</string>
+    <string name="professor">Professor</string>
+    <string name="tecAgricola">Técnico Agrícola</string>
+    <string name="tecAgronomo">Técnico em Agrônomia</string>
+    <string name="tecMeioAmabiente">Técnico em Meio Ambiente</string>
+    <string name="outros">Outros</string>
+    <string name="title_activity_graph">ActivityGraph</string>
+
+    <string name="license">Licença</string>
+    <string name="statusAtive">Ativada</string>
+    <string name="settingDarwin">Configurações Darwin</string>
+    <string name="enunSaveClound">Salvar Amostras na Nuvem permite enviar as Amostras para sua conta cadastrada quando seu dispositivo estiver conectado à internet.</string>
+    <string name="saveOnClound">Salvar Amostras na Nuvem</string>
+    <string name="enumAtiveNotif">Ativar Notificaçoes permite mostrar notificações quando o Darwin estiver fazendo algum processo em segundo plano, como por exemplo enviando Amostras à nuvem.</string>
+    <string name="ativeNotifi">Ativar Notificações</string>
+    <string name="eneumLog">Permanecer Logado permite logar automaticamente quando inicia o aplicativo. Por padrão esta opçao é ativada.</string>
+    <string name="perLog">Permanecer Logado</string>
+    <string name="account">Conta</string>
+
+    <string name="dimHeightRect">Comprimento</string>
+    <string name="dimWidthRect">Largura</string>
+    <string name="dimArea"><b>Área</b>\n</string>
+
+</resources>

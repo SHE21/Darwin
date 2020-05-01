@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <item android:id="@+id/action_undo"
+        android:title="@string/action_undo"
+        android:icon="@drawable/ic_undo_black"
+        app:showAsAction="ifRoom" />
+
+    <item android:id="@+id/action_add_amostra"
+        android:title="@string/action_add_amostra"
+        android:icon="@drawable/ic_add_amostra"
+        app:showAsAction="always" />
+
+    <item android:id="@+id/action_add_rect"
+        android:title="@string/action_add_rect"
+        android:icon="@drawable/ic_add_gray_poly"
+        app:showAsAction="always" />
+
+    <item android:id="@+id/action_add_circle"
+        android:title="@string/action_add_circle"
+        android:icon="@drawable/ic_add_gray_circle"
+        app:showAsAction="always" />
+
+    <item android:id="@+id/action_save_ediction"
+        android:title="@string/action_save"
+        android:icon="@drawable/ic_save_black_24dp"
+        app:showAsAction="always" />
+
+</menu>

@@ -1,0 +1,112 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.darwin.aigus.darwin.Activity.ActivityDetalheEspecie">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:layout_margin="15dp"
+        android:padding="5dp"
+        android:background="@drawable/shape_background_white_border">
+        <LinearLayout
+            style="@style/itemDetalheEspecie">
+        <TextView
+            android:text="Nome Vulgar: "
+            style="@style/labelDetalheEspecie"/>
+
+            <TextView
+                android:id="@+id/nameEspecie"
+                android:text="Favera"
+                style="@style/dataDetalheEspecie"/>
+        </LinearLayout>
+
+        <LinearLayout
+            style="@style/itemDetalheEspecie">
+            <TextView
+                android:text="Nome Científico: "
+                style="@style/labelDetalheEspecie"/>
+
+            <TextView
+                android:id="@+id/nameCientifico"
+                android:text="Favera"
+                style="@style/dataDetalheEspecie"/>
+        </LinearLayout>
+
+        <LinearLayout
+            style="@style/itemDetalheEspecie">
+            <TextView
+                android:text="Familia: "
+                style="@style/labelDetalheEspecie"/>
+
+            <TextView
+                android:id="@+id/familiaEspecie"
+                android:text="Favera"
+                style="@style/dataDetalheEspecie"/>
+        </LinearLayout>
+
+        <LinearLayout
+            style="@style/itemDetalheEspecie">
+            <TextView
+                android:text="Altura: "
+                style="@style/labelDetalheEspecie"/>
+
+            <TextView
+                android:id="@+id/heightEspecie"
+                android:text="2.5 m"
+                style="@style/dataDetalheEspecie"/>
+        </LinearLayout>
+
+        <LinearLayout
+            style="@style/itemDetalheEspecie">
+            <TextView
+                android:text="Diâmetro: "
+                style="@style/labelDetalheEspecie"/>
+
+            <TextView
+                android:id="@+id/diamterEspecie"
+                android:text="0.10 cm"
+                style="@style/dataDetalheEspecie"/>
+        </LinearLayout>
+
+        <LinearLayout
+            style="@style/itemDetalheEspecie">
+            <TextView
+                android:text="Amostra: "
+                style="@style/labelDetalheEspecie"/>
+
+            <TextView
+                android:id="@+id/nameAmostra"
+                android:text="AMOSTRA_001"
+                style="@style/dataDetalheEspecie"/>
+        </LinearLayout>
+
+        <LinearLayout
+            style="@style/itemDetalheEspecie">
+            <TextView
+                android:text="Levantamento: "
+                style="@style/labelDetalheEspecie"/>
+
+            <TextView
+                android:id="@+id/nameLev"
+                android:text="AMOSTRA_001"
+                style="@style/dataDetalheEspecie"/>
+        </LinearLayout>
+
+        <LinearLayout
+            style="@style/itemDetalheEspecie">
+            <TextView
+                android:text="Data da Coleta: "
+                style="@style/labelDetalheEspecie"/>
+
+            <TextView
+                android:id="@+id/dataEspecie"
+                android:text="12-11-2017"
+                style="@style/dataDetalheEspecie"/>
+        </LinearLayout>
+
+    </LinearLayout>
+</LinearLayout>

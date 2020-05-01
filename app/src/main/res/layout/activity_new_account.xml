@@ -1,0 +1,185 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.darwin.aigus.darwin.ActivityNewAccount">
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        tools:ignore="UselessParent">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="15dp"
+        android:orientation="vertical">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/createAAccount"
+            android:textColor="#000000"
+            android:textSize="18sp" />
+        <TextView
+            android:text="@string/paraAcessar"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textSize="14sp" />
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+            <TextView
+                android:text="@string/termoPrivacity"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textSize="16sp"
+                android:textStyle="bold"
+                android:id="@+id/seePrivacidade"
+                android:padding="3dp"/>
+            <TextView
+                android:text="@string/e"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textSize="13sp"
+                android:padding="3dp"/>
+            <TextView
+                android:id="@+id/seeLisenca"
+                android:text="@string/termoContrato"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textSize="16sp"
+                android:textStyle="bold"/>
+        </LinearLayout>
+
+        <TextView
+            android:id="@+id/alertError"
+            android:text="@string/errorCampoBranco"
+            style="@style/alertError"
+            android:visibility="gone"/>
+
+        <TextView
+            android:text="@string/dadosPessoa"
+            style="@style/titleForm"/>
+
+        <EditText
+            android:id="@+id/firstName"
+            android:hint="@string/firstName"
+            style="@style/styleFilds"/>
+
+        <EditText
+            android:id="@+id/lastName"
+            android:hint="@string/lastName"
+            style="@style/styleFilds"/>
+
+        <RadioGroup
+            android:id="@+id/radioGroup"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:gravity="start"
+            android:orientation="horizontal"
+            android:layout_marginTop="5dp">
+            <RadioButton
+                android:id="@+id/feminino"
+                android:text="@string/generusF"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content" />
+            <RadioButton
+                android:id="@+id/masculino"
+                android:text="@string/generusM"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content" />
+        </RadioGroup>
+
+        <TextView
+            android:id="@+id/birthDay"
+            android:hint="@string/bithDay"
+            android:textSize="15sp"
+            android:textColor="#000"
+            style="@style/styleFilds"/>
+
+        <EditText
+            android:id="@+id/emailUser"
+            android:hint="@string/email"
+            android:inputType="textEmailAddress"
+            style="@style/styleFilds"/>
+
+        <TextView
+            android:text="@string/profissional"
+            style="@style/titleForm"/>
+
+        <Spinner
+            android:id="@+id/profUser"
+            android:prompt="@string/prof"
+            style="@style/styleFilds"/>
+
+        <EditText
+            android:id="@+id/instUser"
+            android:hint="@string/inst"
+            style="@style/styleFilds"/>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <TextView
+                android:text="@string/whereare"
+                style="@style/titleForm"/>
+
+        <AutoCompleteTextView
+            android:id="@+id/countryUser"
+            android:hint="@string/country"
+            style="@style/styleFilds"/>
+
+            <EditText
+                android:id="@+id/statedUser"
+                android:hint="@string/stated"
+                style="@style/styleFilds"/>
+
+            <EditText
+                android:id="@+id/cityUser"
+                android:hint="@string/city"
+                style="@style/styleFilds"/>
+
+        </LinearLayout>
+
+        <TextView
+            android:text="@string/insertpass"
+            style="@style/titleForm"/>
+
+        <EditText
+            android:id="@+id/passUser"
+            android:hint="@string/pass"
+            android:inputType="textWebPassword"
+            style="@style/styleFilds"/>
+
+        <EditText
+            android:id="@+id/passAgainUser"
+            android:hint="@string/passAgain"
+            android:inputType="textWebPassword"
+            style="@style/styleFilds"/>
+
+        <CheckBox
+            android:id="@+id/termos"
+            android:layout_width="wrap_content"
+            android:layout_height="0dp"
+            android:layout_weight="1"
+            android:text="@string/liConcordo"
+            android:padding="10dp"/>
+
+        <Button
+            android:id="@+id/btnCreate"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@drawable/selector_btn_login"
+            android:text="@string/createAccount"
+            android:textColor="#fff"
+            android:layout_marginTop="15dp"
+            android:layout_marginBottom="25dp"/>
+    </LinearLayout>
+    </ScrollView>
+</LinearLayout>
